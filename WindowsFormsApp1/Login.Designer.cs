@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.office2010BlueTheme1 = new Telerik.WinControls.Themes.Office2010BlueTheme();
             this.materialBlueGreyTheme1 = new Telerik.WinControls.Themes.MaterialBlueGreyTheme();
             this.office2010SilverTheme1 = new Telerik.WinControls.Themes.Office2010SilverTheme();
@@ -38,6 +39,7 @@
             this.tbPas = new Telerik.WinControls.UI.RadTextBox();
             this.rbLog = new Telerik.WinControls.UI.RadButton();
             this.ErrorLogPas = new Telerik.WinControls.UI.RadLabel();
+            this.crystalDarkTheme1 = new Telerik.WinControls.Themes.CrystalDarkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.tbLog)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
@@ -52,9 +54,9 @@
             this.tbLog.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbLog.Location = new System.Drawing.Point(105, 97);
             this.tbLog.Name = "tbLog";
-            this.tbLog.Size = new System.Drawing.Size(317, 33);
+            this.tbLog.Size = new System.Drawing.Size(317, 35);
             this.tbLog.TabIndex = 1;
-            this.tbLog.ThemeName = "Office2010Blue";
+            this.tbLog.ThemeName = "CrystalDark";
             // 
             // radLabel2
             // 
@@ -84,9 +86,9 @@
             this.tbPas.Location = new System.Drawing.Point(105, 175);
             this.tbPas.Name = "tbPas";
             this.tbPas.PasswordChar = '*';
-            this.tbPas.Size = new System.Drawing.Size(317, 33);
+            this.tbPas.Size = new System.Drawing.Size(317, 35);
             this.tbPas.TabIndex = 3;
-            this.tbPas.ThemeName = "Office2010Blue";
+            this.tbPas.ThemeName = "CrystalDark";
             // 
             // rbLog
             // 
@@ -95,7 +97,7 @@
             this.rbLog.Size = new System.Drawing.Size(120, 36);
             this.rbLog.TabIndex = 5;
             this.rbLog.Text = "Войти";
-            this.rbLog.ThemeName = "MaterialBlueGrey";
+            this.rbLog.ThemeName = "CrystalDark";
             this.rbLog.Click += new System.EventHandler(this.rbLog_Click);
             // 
             // ErrorLogPas
@@ -123,8 +125,12 @@
             this.Controls.Add(this.tbPas);
             this.Controls.Add(this.radLabel2);
             this.Controls.Add(this.tbLog);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(513, 400);
+            this.MinimumSize = new System.Drawing.Size(513, 400);
             this.Name = "Login";
-            this.Text = "Login";
+            this.Text = "Вход";
             this.ThemeName = "FluentDark";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Login_FormClosed);
             this.Load += new System.EventHandler(this.Login_Load);
@@ -152,5 +158,6 @@
         private Telerik.WinControls.UI.RadTextBox tbPas;
         private Telerik.WinControls.UI.RadButton rbLog;
         private Telerik.WinControls.UI.RadLabel ErrorLogPas;
+        private Telerik.WinControls.Themes.CrystalDarkTheme crystalDarkTheme1;
     }
 }

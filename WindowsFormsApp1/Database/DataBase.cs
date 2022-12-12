@@ -9,7 +9,7 @@ namespace WindowsFormsApp1.Database
 {
     class DataBase
     {
-        SqlConnection sqlConnection = new SqlConnection(@"Data Source=DESKTOP-18UCM5L\SQLEXPRESS; Initial Catalog=DB_Diet;Integrated Security=True");
+        SqlConnection sqlConnection = new SqlConnection(@"Data Source=DESKTOP-JB47F9J\SQLEXPRESS; Initial Catalog=DB_Diet;Integrated Security=True");
 
         public void openConnection()
         {

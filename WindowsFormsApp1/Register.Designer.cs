@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
             this.office2010BlueTheme1 = new Telerik.WinControls.Themes.Office2010BlueTheme();
             this.materialBlueGreyTheme1 = new Telerik.WinControls.Themes.MaterialBlueGreyTheme();
             this.office2010SilverTheme1 = new Telerik.WinControls.Themes.Office2010SilverTheme();
@@ -45,6 +46,8 @@
             this.ErrorLog = new Telerik.WinControls.UI.RadLabel();
             this.ErrorPas = new Telerik.WinControls.UI.RadLabel();
             this.ErrorPas2 = new Telerik.WinControls.UI.RadLabel();
+            this.crystalDarkTheme1 = new Telerik.WinControls.Themes.CrystalDarkTheme();
+            this.fluentDarkTheme1 = new Telerik.WinControls.Themes.FluentDarkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.tbLog)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
@@ -65,97 +68,98 @@
             // tbLog
             // 
             this.tbLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F);
-            this.tbLog.Location = new System.Drawing.Point(66, 27);
+            this.tbLog.Location = new System.Drawing.Point(66, 24);
             this.tbLog.Name = "tbLog";
-            this.tbLog.Size = new System.Drawing.Size(218, 21);
+            this.tbLog.Size = new System.Drawing.Size(218, 25);
             this.tbLog.TabIndex = 0;
-            this.tbLog.ThemeName = "Office2010Blue";
+            this.tbLog.ThemeName = "FluentDark";
             // 
             // radLabel1
             // 
             this.radLabel1.Location = new System.Drawing.Point(12, 28);
             this.radLabel1.Name = "radLabel1";
-            this.radLabel1.Size = new System.Drawing.Size(48, 21);
+            this.radLabel1.Size = new System.Drawing.Size(38, 18);
             this.radLabel1.TabIndex = 1;
             this.radLabel1.Text = "Логин";
-            this.radLabel1.ThemeName = "Office2010Blue";
+            this.radLabel1.ThemeName = "FluentDark";
             // 
             // radLabel2
             // 
             this.radLabel2.Location = new System.Drawing.Point(12, 70);
             this.radLabel2.Name = "radLabel2";
-            this.radLabel2.Size = new System.Drawing.Size(58, 21);
+            this.radLabel2.Size = new System.Drawing.Size(45, 18);
             this.radLabel2.TabIndex = 2;
             this.radLabel2.Text = "Пароль";
-            this.radLabel2.ThemeName = "Office2010Blue";
+            this.radLabel2.ThemeName = "FluentDark";
             // 
             // tbPas
             // 
             this.tbPas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F);
-            this.tbPas.Location = new System.Drawing.Point(76, 69);
+            this.tbPas.Location = new System.Drawing.Point(76, 66);
             this.tbPas.Name = "tbPas";
             this.tbPas.PasswordChar = '*';
-            this.tbPas.Size = new System.Drawing.Size(208, 21);
+            this.tbPas.Size = new System.Drawing.Size(208, 25);
             this.tbPas.TabIndex = 3;
-            this.tbPas.ThemeName = "Office2010Blue";
+            this.tbPas.ThemeName = "FluentDark";
             // 
             // tbPas2
             // 
             this.tbPas2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F);
-            this.tbPas2.Location = new System.Drawing.Point(150, 111);
+            this.tbPas2.Location = new System.Drawing.Point(150, 108);
             this.tbPas2.Name = "tbPas2";
             this.tbPas2.PasswordChar = '*';
-            this.tbPas2.Size = new System.Drawing.Size(134, 21);
+            this.tbPas2.Size = new System.Drawing.Size(134, 25);
             this.tbPas2.TabIndex = 5;
-            this.tbPas2.ThemeName = "Office2010Blue";
+            this.tbPas2.ThemeName = "FluentDark";
             // 
             // radLabel3
             // 
             this.radLabel3.Location = new System.Drawing.Point(12, 112);
             this.radLabel3.Name = "radLabel3";
-            this.radLabel3.Size = new System.Drawing.Size(132, 21);
+            this.radLabel3.Size = new System.Drawing.Size(102, 18);
             this.radLabel3.TabIndex = 4;
             this.radLabel3.Text = "Повторите пароль";
-            this.radLabel3.ThemeName = "Office2010Blue";
+            this.radLabel3.ThemeName = "FluentDark";
             // 
             // radLabel4
             // 
             this.radLabel4.Location = new System.Drawing.Point(12, 154);
             this.radLabel4.Name = "radLabel4";
-            this.radLabel4.Size = new System.Drawing.Size(112, 21);
+            this.radLabel4.Size = new System.Drawing.Size(86, 18);
             this.radLabel4.TabIndex = 6;
             this.radLabel4.Text = "Дата рождения";
-            this.radLabel4.ThemeName = "Office2010Blue";
+            this.radLabel4.ThemeName = "FluentDark";
             // 
             // dtpBorn
             // 
+            this.dtpBorn.CalendarSize = new System.Drawing.Size(290, 320);
             this.dtpBorn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F);
-            this.dtpBorn.Location = new System.Drawing.Point(130, 153);
+            this.dtpBorn.Location = new System.Drawing.Point(130, 150);
             this.dtpBorn.Name = "dtpBorn";
-            this.dtpBorn.Size = new System.Drawing.Size(154, 21);
+            this.dtpBorn.Size = new System.Drawing.Size(154, 25);
             this.dtpBorn.TabIndex = 7;
             this.dtpBorn.TabStop = false;
             this.dtpBorn.Text = "17 ноября 2022 г.";
-            this.dtpBorn.ThemeName = "Office2010Blue";
+            this.dtpBorn.ThemeName = "FluentDark";
             this.dtpBorn.Value = new System.DateTime(2022, 11, 17, 12, 35, 40, 363);
             // 
             // radLabel5
             // 
             this.radLabel5.Location = new System.Drawing.Point(12, 195);
             this.radLabel5.Name = "radLabel5";
-            this.radLabel5.Size = new System.Drawing.Size(31, 21);
+            this.radLabel5.Size = new System.Drawing.Size(24, 18);
             this.radLabel5.TabIndex = 8;
             this.radLabel5.Text = "Вес";
-            this.radLabel5.ThemeName = "Office2010Blue";
+            this.radLabel5.ThemeName = "FluentDark";
             // 
             // seWeidth
             // 
             this.seWeidth.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F);
-            this.seWeidth.Location = new System.Drawing.Point(49, 194);
+            this.seWeidth.Location = new System.Drawing.Point(42, 191);
             this.seWeidth.Name = "seWeidth";
-            this.seWeidth.Size = new System.Drawing.Size(100, 21);
+            this.seWeidth.Size = new System.Drawing.Size(100, 25);
             this.seWeidth.TabIndex = 9;
-            this.seWeidth.ThemeName = "Office2010Blue";
+            this.seWeidth.ThemeName = "FluentDark";
             // 
             // rbReg
             // 
@@ -165,7 +169,7 @@
             this.rbReg.Size = new System.Drawing.Size(176, 36);
             this.rbReg.TabIndex = 10;
             this.rbReg.Text = "Зарегестрироваться";
-            this.rbReg.ThemeName = "MaterialBlueGrey";
+            this.rbReg.ThemeName = "CrystalDark";
             this.rbReg.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // ErrorLog
@@ -220,9 +224,13 @@
             this.Controls.Add(this.radLabel2);
             this.Controls.Add(this.radLabel1);
             this.Controls.Add(this.tbLog);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(304, 305);
+            this.MinimumSize = new System.Drawing.Size(304, 305);
             this.Name = "Register";
-            this.Text = "Register";
-            this.ThemeName = "MaterialBlueGrey";
+            this.Text = "Регистрация";
+            this.ThemeName = "FluentDark";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Register_FormClosed);
             this.Load += new System.EventHandler(this.Register_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tbLog)).EndInit();
@@ -264,5 +272,7 @@
         private Telerik.WinControls.UI.RadLabel ErrorLog;
         private Telerik.WinControls.UI.RadLabel ErrorPas2;
         private Telerik.WinControls.UI.RadLabel ErrorPas;
+        private Telerik.WinControls.Themes.CrystalDarkTheme crystalDarkTheme1;
+        private Telerik.WinControls.Themes.FluentDarkTheme fluentDarkTheme1;
     }
 }

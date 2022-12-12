@@ -118,7 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="таблица" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\таблица.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="график" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\график.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="питание" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\питание.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="изображение" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\изображение.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ovshchi_spetsii_risunok" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ovshchi-spetsii-risunok.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="питание график" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\питание график.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="весы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\весы.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="доставка_еды2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\доставка-еды2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="доставка_еды_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\доставка-еды-.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excel__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excel (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="word__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\word (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BudgetMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BudgetMenu.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DietMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DietMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DietMenu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DietMenu2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sportMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sportMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VeganMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VeganMenu.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegan_food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegan-food.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vrach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vrach.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
